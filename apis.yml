@@ -1,8 +1,31 @@
 aid: coachup
 name: Coachup
-description: Coachup is a company surfaced as a portfolio company of general-catalyst, techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  CoachUp is the nation's leading private sports coaching marketplace, founded in
+  2012 in Boston by Jordan Fliegel, Arian Radmand, and Gabe Durazo. It connects
+  athletes of all levels — and the parents of young athletes — with vetted,
+  background-checked private and small-group coaches across basketball, soccer,
+  football, baseball, running and track and field, volleyball, swimming, softball,
+  tennis, lacrosse, fitness, and dance. Coaches are discoverable by sport and
+  location, sessions average $40–$60 per hour, and every session is backed by
+  $1 million liability insurance. The platform has hosted more than 13,000 coaches
+  serving over 100,000 athletes, with Boston, New York, Los Angeles, Dallas, and
+  Chicago among its top training markets. CoachUp is backed by General Catalyst,
+  Point Judith Capital, and Techstars. As of this profile CoachUp exposes only a
+  consumer web and mobile experience with no public developer program, API
+  documentation, or machine-readable API surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://d1jkfbnxwa8kir.cloudfront.net/assets/logos/cu-logo-large-nowords-social-7f4db151dd0dd8f474c94fbbfbdcf9a2b2d4a79de7b0c7314615aa1c8e3387f5.png
 url: https://raw.githubusercontent.com/api-evangelist/coachup/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +36,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Sports
+- Coaching
+- Marketplace
+- Fitness
+- Training
+- Athletics
+- Two-Sided Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +54,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://coachup.com/
+  url: https://www.coachup.com/
+- type: GettingStarted
+  url: https://www.coachup.com/how_it_works
+- type: SignUp
+  url: https://www.coachup.com/users/sign_up/client
+- type: Login
+  url: https://www.coachup.com/users/sign_in
+- type: TermsOfService
+  url: https://www.coachup.com/terms_of_service
+- type: PrivacyPolicy
+  url: https://www.coachup.com/privacy
+- type: Support
+  url: https://www.coachup.com/contact
+- type: Blog
+  url: https://www.coachup.com/nation/
+- type: DomainSecurity
+  url: security/coachup-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
